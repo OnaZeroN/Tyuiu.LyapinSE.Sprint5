@@ -7,7 +7,7 @@ namespace Tyuiu.LyapinSE.Sprint5.Task4.V18.Lib
         public double LoadFromDataFile(string path)
         {
             string data = File.ReadAllText(path);
-            double x = double.Parse(data);
+            double x = Convert.ToDouble(data);
             double y = Math.Cos(x) + Math.Pow(x, 2) / 2.0;
             return Math.Round(y, 3);
         }
