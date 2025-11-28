@@ -56,7 +56,7 @@ namespace Tyuiu.LyapinSE.Sprint5.Task2.V18.Lib
                 }
 
                 result += row;
-                if (i == matrix.GetLength(0) - 1)
+                if (i != matrix.GetLength(0) - 1)
                 {
                     result += Environment.NewLine;
                 }
