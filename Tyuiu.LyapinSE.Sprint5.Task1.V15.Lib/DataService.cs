@@ -40,7 +40,7 @@ namespace Tyuiu.LyapinSE.Sprint5.Task1.V15.Lib
                     File.AppendAllText(path, res);
                 }
             }
-            return path;
+            return pa;
         }
     }
 }
